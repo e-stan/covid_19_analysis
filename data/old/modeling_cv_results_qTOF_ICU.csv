@@ -1,0 +1,11 @@
+,Model,Params,Baseline,Score,Training Score
+0,Logistic Regression,"{'feat_selection': ('stat', 0.1, 1), 'C': 1, 'l1_ratio': 0.8888888888888888}",none,0.8365472910927456,0.8925619834710744
+1,ElasticNet,"{'feat_selection': ('corr', 0.4444444444444444), 'alpha': 10, 'l1_ratio': 0.0}",none,0.8381542699724518,0.9141414141414141
+2,PLSDA,"{'feat_selection': ('stat', 0.05, 1), 'n_components': 2}",none,0.8248393021120294,0.8930211202938476
+3,SVM,"{'feat_selection': ('stat', 0.05, 1), 'C': 0.01, 'kernel': 'linear'}",none,0.7727272727272727,0.8787878787878789
+4,Random Forest,"{'feat_selection': ('stat', 0.1, 1), 'max_features': 'log2', 'max_depth': None, 'n_estimators': 200}",none,0.7803030303030302,1.0
+5,Logistic Regression,"{'feat_selection': ('corr', 0.4444444444444444), 'C': 0.001, 'l1_ratio': 0.0}",all,0.831267217630854,0.891643709825528
+6,ElasticNet,"{'feat_selection': ('corr', 0.4444444444444444), 'alpha': 10, 'l1_ratio': 0.0}",all,0.8381542699724518,0.9141414141414141
+7,PLSDA,"{'feat_selection': ('stat', 0.05, 1), 'n_components': 2}",all,0.8248393021120294,0.8930211202938476
+8,SVM,"{'feat_selection': ('corr', 0.5555555555555556), 'C': 0.1, 'kernel': 'sigmoid'}",all,0.7727272727272727,0.7727272727272727
+9,Random Forest,"{'feat_selection': ('stat', 0.05, 1), 'max_features': 'auto', 'max_depth': 5, 'n_estimators': 50}",all,0.7575757575757576,1.0
